@@ -1,0 +1,121 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: burlywood;
+    background-image: url(../media/background.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 35vh;
+    /* opacity: 0; */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo a,img {
+    width: 75px;
+    display: block;
+    margin: 10px auto;
+}
+
+.auth {
+    width: 100%;
+    text-align: center;
+}
+
+.auth .signIn {
+    margin-top: 20px;
+}
+
+.auth .signIn button {
+    width: 8rem;
+    height: 3rem;
+    color: #dee8f2;
+    /* text-shadow: #031f39; */
+    border-radius: 10px;
+    background-color: rgb(82, 118, 119);
+    font-family: monospace;
+    font-size: large;
+    font-weight: 550;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    transition: background-color 0.3s ease;
+}
+
+.auth .signIn button:hover {
+    background-color: rgb(94, 139, 143);
+}
+
+.auth .note p {
+    padding-block: 10px;
+
+    font-family: monospace;
+    font-weight: 750;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* margin-top: 20px; */
+}
+
+.main .shortURL {
+    font-family: monospace;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid #031f39;
+    box-shadow: 5px 5px 5px rgba(27, 54, 63, 0.6);
+    background: linear-gradient(to right, rgba(105, 165, 105, 0.8), rgba(120, 154, 165, 0.6));
+    margin-bottom: 5px;
+}
+
+.main img {
+    width: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.redirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5px;
+}
+
+.redirect img {
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.redirect img:hover {
+    transform: scale(1.1);
+}
+
+h5 {
+    text-align: center;
+    color: #031f39;
+    margin: 0;
+    font-weight: 800;
+}

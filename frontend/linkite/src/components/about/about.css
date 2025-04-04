@@ -1,0 +1,69 @@
+.about {
+    color: burlywood;
+    padding-inline: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: 5rem;
+    margin-bottom: 3rem;
+}
+
+.about .heading {
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about .subheading {
+    font-size: 20px;
+    color: beige;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.banner {
+    width: 80%;
+    height: 10.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+}
+
+.left {
+    width: 80%;
+    color: aliceblue;
+    margin-left: 2.5rem;
+}
+.left h4 {
+    padding-left: 1rem;
+    color: beige;
+}
+.left h2 {
+    font-size: 48px;
+    text-align: left;
+}
+.left p {
+    font-size: 17px;
+    color: whitesmoke;
+
+}
+
+.right {
+    /* width: 80%; */
+    color: aliceblue;
+    margin-left: 3rem;
+    align-content: center;
+}
+
+.about-us {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.about-us img {
+    width: 90%;
+    /* height: 95%; */
+}
