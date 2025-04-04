@@ -1,0 +1,148 @@
+#contact {
+    width: 100%;
+    /* margin: 5rem; */
+    /* margin-left: 5rem; */
+    background: none;
+    margin-top: -2.5rem;
+}
+
+#contact h2,h5 {
+    background: none;
+    text-align: center;
+    color: #031f39;
+}
+
+.container.contact__container {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    background: none;
+    margin-left: 7.5rem;
+} 
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    background: none;
+}
+
+.contact__option {
+    /* background: burlywood; */
+    background-color: #1b1b2a;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    /* border: 2.5px solid whitesmoke; */
+    transition: all 400ms ease;
+}
+
+/* .contact__option:hover {
+    background: transparent;
+    border-color: navy;
+    color: black;
+} */
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    background: none;
+    text-decoration: none;
+    color: rgb(157, 155, 155);
+}
+
+.contact__option a:hover {
+    color: white;
+}
+
+.contact__option-icon {
+    background: none;
+    color: burlywood;
+}
+
+.contact__option h5 {
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    /* color: #031f39; */
+    font-weight: 600;
+}
+
+.contact__option h4 {
+    font-weight: 500;
+    background: none;
+    color: beige;
+    font-weight: 600;
+}
+
+form span {
+    font-size: 0.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background: none;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #031f39;
+    resize: none;
+    color: #031f39;
+    font-weight: 600;
+}
+
+.input-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    /* border: none; */
+    border-color: #031f39;
+    background-color: #53886D;
+    color: #031f39;
+    font-weight: 750;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.input-button i {
+    background: none;
+}
+
+.input-button:hover {
+    background-color: rgb(147, 147, 117);
+}
+
+.reply {
+    background: none;
+    color: black;
+    font-family: monospace;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 1024px){
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+  
+@media screen and (max-width: 600px){
+    .container.contact__container {
+        width: 90%;
+    }
+}

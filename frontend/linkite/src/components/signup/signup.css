@@ -1,0 +1,134 @@
+.form-container {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The form itself */
+.signup-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  position: relative;
+}
+
+/* Headings and labels */
+.signup-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  background: none;
+  color: #031f39;
+}
+
+.close-btn {
+    background: none;
+}
+
+.signup-form label {
+  margin-bottom: 8px;
+  display: block;
+  background: none;
+}
+
+.signup-form label b {
+    background: none;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  background-color: #E8F0FE;
+  border: 2px solid #031f39;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-container1, .password-container2 {
+  display: flex;
+  align-items: center;
+  background: none;
+  width: 100%;
+  
+}
+
+.toggle-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* padding-bottom: 8px; */
+  padding: 9px;
+  background-color: #E8F0FE;
+  margin: 10px 0 20px;
+  border: 2px solid #031f39;
+  border-left: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #031f39;
+  color: white;
+  font-weight: 550;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #053c70;
+}
+
+/* Close button (X) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.close-btn i {
+  background: none;
+}
+
+.close-btn:hover {
+  color: darkred;
+}
+
+.redirect-login {
+  background: none;
+  text-align: center;
+  font-weight: 550;
+}
+
+.redirect-login span {
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(196, 113, 4);
+  transition: color 0.3s ease-in-out;
+}
+
+.redirect-signup a:hover {
+  color: rgb(219, 169, 103);
+}
+

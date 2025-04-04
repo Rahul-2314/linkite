@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="popup.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+        <div class="logo">
+				<a href="https://sec-link.vercel.app/" target="_blank">
+					<img src="../media/logo.png" alt="logo" />
+				</a>
+		</div>
+        <!-- style="display: none" -->
+        <div class="auth" style="display: none">
+            <!-- <div class="logo">
+				<img src="../media/logo.png" alt="logo" />
+			</div> -->
+            <div class="signIn">
+                <a href="https://sec-link.vercel.app/" target="_blank">
+                    <button type="submit" class="SignIn">Sign-In</button>
+                </a>
+            </div>
+            <div class="note">
+                <p>NOTE: PLEASE SIGN-IN THEN USE LINKITE UNINTERRUPTEDLY</p>
+            </div>
+        </div>
+		<div class="extension" style="display: 0">
+			<!-- <div class="logo">
+				<img src="../media/logo.png" alt="logo" />
+			</div> -->
+			<div class="main" id="main">
+				<h2 class="shortURL" id="shortUrl">https://linkite.in/a1b2c3</h2>
+				<div class="copybtn" id="copybtn1">
+					<img src="../media/copy.svg" alt="copy" />
+				</div>
+				<div class="copybtn" id="copybtn2" style="display: none">
+					<img src="../media/copied.svg" alt="copied" />
+				</div>
+			</div>
+			<div class="redirect">
+				<h5 class="analytics-redirection">For more link analytics...</h5>
+				<a href="https://sec-link.vercel.app/analytics" target="_blank">
+					<img src="../media/right-arrow.svg" alt="analytics-link" />
+				</a>
+			</div>
+		</div>
+
+		<script src="popup.js" defer></script>
+	</body>
+</html>

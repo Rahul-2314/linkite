@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "Linkite - Short & Secure",
+	"version": "1.0.0",
+	"description": "A browser extension to shorten URLs with Linkite.",
+	"icons": {
+		"16": "media/icon-16.png",
+		"48": "media/icon-48.png",
+		"128": "media/icon-128.png"
+	},
+	"permissions": ["tabs", "storage", "activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "popup/popup.html",
+		"default_title": "Linkite",
+		"default_icon": "media/icon-48.png"
+	},
+	"host_permissions": ["https://sec-link.vercel.app/"],
+	"content_security_policy": {
+		"extension_pages": "script-src 'self'; object-src 'self'"
+	}
+}

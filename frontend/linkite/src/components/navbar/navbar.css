@@ -1,0 +1,152 @@
+* {
+    /* background-color: #fffdf8; */
+    /* background-color: #031f39; */
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #031f39; 
+}
+
+.navbar {
+    /* background-color: #031f39; */
+    /* background-color: #031f39;  */
+    padding: 0.5rem;
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo img {
+    height: 65px;
+	/* width: 130px; */
+	width: 170px;
+	border-radius: 25px;
+	/* margin-top: 0.2rem; */
+	margin-left: 1rem;
+	/* box-shadow: 0 8px 16px navy; */
+	/* transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; */
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    /* color: navy; */
+    color: white;
+    font-weight: 600;
+    padding-right: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#nav-premium {
+    color: #de8208;
+    transition: color 0.3s ease-in-out;
+    padding: 2rem;
+}
+#nav-premium:hover {
+    /* color: navy; */
+    color: burlywood;
+}
+
+.nav-link:hover {
+    /* color: black; */
+    color: burlywood;
+}
+
+.sign-up {
+    /* text-decoration: none; */
+    cursor: pointer;
+    /* color: #97b4a5; */
+    color: beige;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    padding-right: -3.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.sign-up:hover {
+    color: #97b4a5;
+}
+
+.log-in {
+	background-color: rgb(237, 219, 194);
+	border: none;
+	color: #031f39;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.log-in:hover {
+	background-color: #97b4a5;
+	color: black;
+}
+
+.profile-img i {
+    color: #97b4a5;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    border: 2px solid beige;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+.profile-img i:hover {
+    color: green;
+}
+
+.log-out {
+	background-color: rgb(237, 219, 194);
+	border: none;
+	color: #031f39;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.log-out:hover {
+    background-color: rgb(188, 130, 115);
+}
