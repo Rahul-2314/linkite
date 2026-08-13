@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const linkRoutes = require('./routes/linkRoutes');
 const userRoutes = require('./Auth/routes/UserRoutes');
+const otpRoutes = require("./routes/otpRoutes");  // nodemailer
 const bodyParser = require("body-parser");
 
 const app = express();
@@ -19,6 +20,7 @@ app.use(bodyParser.json());
 // routes
 app.use('/', linkRoutes);
 app.use('/user', userRoutes);
+app.use("/api", otpRoutes);
 
 // MongoDB Connection
 mongoose
