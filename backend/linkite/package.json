@@ -24,5 +24,6 @@
     "shortid": "^2.2.16",
     "uuid": "^11.0.3",
     "valid-url": "^1.0.9"
+    "nodemailer": "^7.0.5"
   }
 }
